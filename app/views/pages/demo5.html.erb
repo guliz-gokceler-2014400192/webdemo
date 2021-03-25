@@ -1168,16 +1168,16 @@
 									current_slide2="11";
 									}
 				}
-				    else{
+				    else if($('#OrganSelection').val()=="LUSC"){
 								if($('#PatientSelection').val()=="Patient1"){
-									frozen_file_name=lusc_frozen_files[0];
-									aiffpe_file_name=lusc_fake_files[0];
+									frozen_file_name=lusc_frozen_files_patch[0];
+									aiffpe_file_name=lusc_fake_files_patch[0];
 									current_slide="12";
 									current_slide2="13";
 									}
 									else if($('#PatientSelection').val()=="Patient2"){
-									frozen_file_name=lusc_frozen_files[1];
-									aiffpe_file_name=lusc_fake_files[1];
+									frozen_file_name=lusc_frozen_files_patch[1];
+									aiffpe_file_name=lusc_fake_files_patch[1];
 									current_slide="14";
 									current_slide2="15";
                                     console.log("hereeee")
@@ -1231,7 +1231,7 @@
 									current_slide2="11";
 									}
 				}
-				    else{
+				    else if($('#OrganSelection').val()=="LUSC"){
 								if($('#PatientSelection').val()=="Patient1"){
 									frozen_file_name=lusc_frozen_files[0];
 									aiffpe_file_name=lusc_fake_files[0];
